@@ -2,6 +2,7 @@ const child_process = require('child_process')
 const bookmarks = {
     'bd': {name: '百度', url: 'https://www.baidu.com'},
     'bl': {name: '哔哩哔哩', url: 'https://www.bilibili.com'},
+    'g': {name: '谷歌', url: 'https://www.google.com'}
 }
 const open = url => {
     let cmd
